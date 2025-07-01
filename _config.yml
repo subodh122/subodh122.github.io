@@ -226,73 +226,106 @@ content:
         description: "Winning proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
 
   - title: Technical Skills
-    layout: list
-    content:
-      - layout: top-middle
-        title: Analytical Tools
-        link: #
-        additional_links:
-          - title: Laboratory Equipment
-            icon: fas fa-microscope
-            url: #
-        quote: Laboratory Equipment & Techniques | Advanced Instrumentation
-        description: |
-          HPLC, GC-MS, GPC, HPTLC, XRD (Bruker), SEM-EDS, FTIR, BET, XPS, AFM, 1H-NMR, UV/Vis
+    layout: text
+    content: |
+      <style>
+        .skills-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0;
+          background: var(--card-background);
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .skills-table th {
+          background: var(--primary-color);
+          color: white;
+          padding: 15px;
+          text-align: center;
+          font-weight: 600;
+          font-size: 0.9em;
+        }
+        .skills-table th i {
+          margin-right: 8px;
+        }
+        .skills-table td {
+          padding: 12px 15px;
+          text-align: center;
+          border-bottom: 1px solid var(--border-color);
+          font-size: 0.85em;
+          line-height: 1.4;
+        }
+        .skills-table tr:last-child td {
+          border-bottom: none;
+        }
+        .skills-table tr:hover {
+          background: var(--hover-color);
+        }
+        @media (max-width: 768px) {
+          .skills-table {
+            font-size: 0.8em;
+          }
+          .skills-table th,
+          .skills-table td {
+            padding: 8px 10px;
+          }
+        }
+      </style>
 
-      - layout: top-middle
-        title: Automation & Scripting
-        link: #
-        additional_links:
-          - title: Programming & Control
-            icon: fas fa-robot
-            url: #
-        quote: Programming & Control Systems | Process Automation
-        description: |
-          Hamilton Venus 6, OpenCV, C, C++, Docker, Gradio, Labview, Opentrons, R-studio
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th><i class="fas fa-microscope"></i> Analytical Tools</th>
+            <th><i class="fas fa-robot"></i> Automation & Scripting</th>
+            <th><i class="fas fa-chart-line"></i> Software & Data Analysis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HPLC, GC-MS, GPC, HPTLC</td>
+            <td>Hamilton Venus 6, OpenCV</td>
+            <td>JMP, Minitab, Tableau</td>
+          </tr>
+          <tr>
+            <td>XRD (Bruker), SEM-EDS, FTIR</td>
+            <td>C, C++, Docker, Gradio</td>
+            <td>Python (Pandas, Scikit-learn, Streamlit)</td>
+          </tr>
+          <tr>
+            <td>BET, XPS, AFM, 1H-NMR, UV/Vis</td>
+            <td>Labview, Opentrons, R-studio</td>
+            <td>CAD, Solidworks</td>
+          </tr>
+        </tbody>
+      </table>
 
-      - layout: top-middle
-        title: Software & Data Analysis
-        link: #
-        additional_links:
-          - title: Analytics & Visualization
-            icon: fas fa-chart-line
-            url: #
-        quote: Analytics & Visualization | Data Science Tools
-        description: |
-          JMP, Minitab, Tableau, Python (Pandas, Scikit-learn, Streamlit), CAD, Solidworks
-
-      - layout: top-middle
-        title: Process Development
-        link: #
-        additional_links:
-          - title: Manufacturing & Quality
-            icon: fas fa-cogs
-            url: #
-        quote: Manufacturing & Quality | Industrial Processes
-        description: |
-          DOEs, SPC, Scale-up, Gage R&R, Cleaning validations, NPI tech-transfer, FMEA, RCAs
-
-      - layout: top-middle
-        title: Regulatory & Quality
-        link: #
-        additional_links:
-          - title: Compliance & Standards
-            icon: fas fa-certificate
-            url: #
-        quote: Compliance & Standards | Quality Management
-        description: |
-          GxP, Equipment validation, SOP development, QMS, Engineering change management
-
-      - layout: top-middle
-        title: Molecular Biology
-        link: #
-        additional_links:
-          - title: Biotechnology & Genomics
-            icon: fas fa-dna
-            url: #
-        quote: Biotechnology & Genomics | Life Sciences
-        description: |
-          PCR, Cytometry, Library Prep, 10x Single Cell Chromium, Microfluidics, Gel Bead Technology
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th><i class="fas fa-cogs"></i> Process Development</th>
+            <th><i class="fas fa-certificate"></i> Regulatory & Quality</th>
+            <th><i class="fas fa-dna"></i> Molecular Biology</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DOEs, SPC, Scale-up</td>
+            <td>GxP, Equipment validation</td>
+            <td>PCR, Cytometry, Library Prep</td>
+          </tr>
+          <tr>
+            <td>Gage R&R, Cleaning validations</td>
+            <td>SOP development, QMS</td>
+            <td>10x Single Cell Chromium</td>
+          </tr>
+          <tr>
+            <td>NPI tech-transfer, FMEA, RCAs</td>
+            <td>Engineering change management</td>
+            <td>Microfluidics, Gel Bead Technology</td>
+          </tr>
+        </tbody>
+      </table>
 
 # More Section
 more_title: Professional Experience & Research
