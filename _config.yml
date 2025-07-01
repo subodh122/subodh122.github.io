@@ -2,7 +2,7 @@
 # https://github.com/sproogen/modern-resume-theme
 
 # Theme settings
-theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 title: Subodh Sonar - Scientist | Process & Automation Engineer | Materials Researcher
 description: Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, process optimization, and Hamilton liquid handling automation.
 
@@ -33,6 +33,15 @@ social:
 
 # Profile image
 image: images/subodh-photo.jpg
+
+# About section
+about_profile_image: images/subodh-photo.jpg
+about_content: |
+  Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, 
+  process optimization, and Hamilton liquid handling automation. Proven track record in driving operational efficiency and cost savings 
+  through data-driven solutions and process improvements. Skilled in PCR, cytometry, library prep and 10x Single Cell Chromium techniques 
+  and troubleshooting complex lab protocols. Experienced in developing SOPs, drafting batch records, and managing engineering changes. 
+  Strong collaborator with cross-functional teams with excellent communication, organization, and mentoring skills.
 
 # Dark mode settings
 darkmode: true
@@ -197,3 +206,24 @@ footer: |
 # Build settings
 # theme: modern-resume-theme (Use this if you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+# Jekyll settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
