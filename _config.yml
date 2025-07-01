@@ -1,0 +1,199 @@
+# Modern Resume Theme
+# https://github.com/sproogen/modern-resume-theme
+
+# Theme settings
+theme: modern-resume-theme
+title: Subodh Sonar - Scientist | Process & Automation Engineer | Materials Researcher
+description: Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, process optimization, and Hamilton liquid handling automation.
+
+# Personal information
+name: Subodh Sonar
+title: Scientist | Process & Automation Engineer | Materials Researcher
+email: sds.powai@gmail.com
+phone: 858-247-9521
+location: San Francisco, CA - open to relocation
+about: >
+  Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, 
+  process optimization, and Hamilton liquid handling automation. Proven track record in driving operational efficiency and cost savings 
+  through data-driven solutions and process improvements. Skilled in PCR, cytometry, library prep and 10x Single Cell Chromium techniques 
+  and troubleshooting complex lab protocols. Experienced in developing SOPs, drafting batch records, and managing engineering changes. 
+  Strong collaborator with cross-functional teams with excellent communication, organization, and mentoring skills.
+
+# Social media links
+social:
+  - name: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/subodhsonar/
+  - name: GitHub
+    icon: fab fa-github
+    url: https://github.com/subodh122
+  - name: Instagram
+    icon: fab fa-instagram
+    url: https://www.instagram.com/subodh122/
+
+# Profile image
+image: images/subodh-photo.jpg
+
+# Dark mode settings
+darkmode: true
+
+# Content sections
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: 10x Genomics
+        sub_title: Senior Research Associate I/II
+        caption: July 2021 - Present
+        description: |
+          • Developed cleaning and drying-in-place protocol for custom dispensing robot, saving 180 labor hours and $200K annually
+          • Reduced scrap costs by $1.4M by mitigating process variation in multi-day oligo-ligation processes for Chromium Single Cell consumables
+          • Extended shelf life of Chromium Single Cell gel bead reagents from 2 to 4 years, saving ~$4M in inventory costs
+          • Led cold-chain shipping studies and developed optimized packing ratio to maintain < -40°C for 5-day transit
+          • Created Google Sheets dashboard with Python/Streamlit backend to visualize oligo yield data
+          • Supported scale-up and tech transfer for Chromium and Xenium consumables, authoring batch records, SOPs, and QCMs
+          • Optimized Xenium dispensing, sealing, and shipping workflows, cutting customer complaints by 80% in two quarters
+          • Authored FAT/SAT protocols for new sites to ensure consistent process validation and quality checks
+
+      - layout: left
+        title: Becton Dickinson Biosciences
+        sub_title: Scientist I/II
+        caption: August 2019 - June 2021
+        description: |
+          • Led experimentation for raw material blending strategy for fluorescent dye synthesis, resulting in patented IP (USP 20220340813A1)
+          • Conducted multiple DoEs to optimize chain-growth polymerization, controlling reaction pathways and kinetics using SPC and GPC
+          • Performed MSA and Gage R&R on NanoDrop Spectrophotometer, revealing 30% variance in absorbance causing process instability
+          • Eliminated lyophilization step in dye production, saving $12,000 per lot in labor and product loss
+          • Identified and qualified alternative polymer purification consumable suppliers to mitigate supply chain risks
+
+      - layout: left
+        title: BD Biosciences
+        sub_title: Research Internship
+        caption: June 2018 - September 2018
+        description: |
+          • Performed GPC-based polymer analysis to optimize fluorescent polymer synthesis
+          • Developed calibration curves for polymerization and functionalization
+          • Enhanced fluorophore conjugation chemistry and yield
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of California, San Diego
+        sub_title: M.S. in Materials Science and Engineering
+        caption: June 2019
+        description: |
+          Conducted interdisciplinary research in advanced materials as part of a MURI-funded project. 
+          Focused on polydopamine nanoparticle synthesis, mixed-matrix membranes, and bio-inspired chemical systems, 
+          achieving high absorptive thin films for solar energy applications.
+
+      - layout: left
+        title: Institute of Chemical Technology (UDCT), Mumbai
+        sub_title: B.S. in Chemical Engineering
+        caption: June 2017
+        description: |
+          Comprehensive education in chemical engineering principles with focus on process design, 
+          optimization, and materials science applications.
+
+  - title: Achievements & Certifications
+    layout: list
+    content:
+      - layout: left
+        title: United States Patent 20220340813A1
+        sub_title: WATER-SOLUBLE FLUORESCENT POLYMERIC DYES
+        caption: BD | Oct 2022
+        description: Patented technology for fluorescent polymeric dyes with enhanced optical properties
+
+      - layout: left
+        title: Venus Software Training I
+        sub_title: Hamilton Liquid Automation Systems
+        caption: 10x Genomics | April 2024
+        description: Certified in Hamilton liquid handling automation systems
+
+      - layout: left
+        title: Six Sigma Manufacturing Fundamentals
+        sub_title: Design Certification
+        caption: BD | November 2019
+        description: Lean Six Sigma White Belt certification in manufacturing processes
+
+      - layout: left
+        title: Winning Author
+        sub_title: MOFs Synchrotron Beam Line Proposal
+        caption: UCSD | Spring 2018
+        description: "Proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
+
+  - title: Technical Skills
+    layout: text
+    content: |
+      **Analytical Tools:** HPLC, GC-MS, GPC, HPTLC, XRD (Bruker), SEM-EDS, FTIR, BET, XPS, AFM, 1H-NMR, UV/Vis
+
+      **Automation & Scripting:** Hamilton Venus 6, OpenCV, C, C++, Docker, Gradio, Labview, Opentrons, R-studio
+
+      **Software & Data Analysis:** JMP, Minitab, Tableau, Python (Pandas, Scikit-learn, Streamlit), CAD, Solidworks
+
+      **Process Development:** DOEs, SPC, Scale-up, Gage R&R, Cleaning validations, NPI tech-transfer, FMEA, RCAs
+
+      **Regulatory & Quality:** GxP, Equipment validation, SOP development, QMS, Engineering change management
+
+      **Molecular Biology:** PCR, Cytometry, Library Prep, 10x Single Cell Chromium, Microfluidics, Gel Bead Technology
+
+  - title: Automation Experience
+    layout: text
+    content: |
+      **10x Genomics | Hamilton STAR, STARlet, Vantage**
+      • Scripted methods for scaled-down oligo-ligation chemistry with modular functions for R&D
+      • Implemented custom tip adapter and pickup pattern to achieve barcode diversity
+      • Optimized liquid class for viscous gel-bead solutions in aqueous buffers, saving 8 hours per iteration
+      • Assisted in automating manual dispensing processes, creating SOPs, conducting FMEA, and ensuring QC sampling
+      • Designed and executed cross-contamination study for automated dispensing in next-gen Xenium plates
+
+      **BD Biosciences | ML apps, Opentrons**
+      • Developed ML app for predicting functional group exchange reactions, achieving 4% mean squared error
+      • Modeled using SVM, XgBoost and RF Regressors, deployed using Gradio
+      • Saved 16 hours of R&D per screening run and reduced QC testing load
+
+  - title: Research Experience
+    layout: text
+    content: |
+      **Graduate Researcher, University of California San Diego (2018-2019)**
+      • Conducted interdisciplinary research in advanced materials as part of MURI-funded project
+      • Focused on polydopamine nanoparticle synthesis, mixed-matrix membranes, and bio-inspired chemical systems
+      • Achieved high absorptive thin films for solar energy applications
+      • ECE136L: Fabricated diodes, LEDs, MOS capacitors, and FETs via photolithography and thin-film deposition
+      • ECE202: Conducted characterization of implantable sensing electrodes, designed EEG/EMG arrays using CAD
+
+      **Undergraduate Researcher, Institute of Chemical Technology (2016-2017)**
+      • Designed, synthesized and analyzed Cerium and Zirconium-based MOFs (UiO-66/808) and APTES-functionalized MCM-41 catalysts
+      • Achieved >90% conversions in 30+ catalytic reactions such as transamination, formylation and CO₂ cycloaddition
+
+      **Summer Researcher, Department of Chemical Engineering, IIT Bombay (2015)**
+      • Assessed small molecule recovery from polymeric by-products (Asphaltenes) of refined crude oil
+      • Estimated molecular weight through osmolality measurements and HPTLC analysis
+      • Classified macromolecule constituents and identified separable organic compounds using polarity-based solvent mixtures
+
+  - title: Additional Information
+    layout: text
+    content: |
+      **Volunteer Experience:**
+      • Green Trails Volunteer at Indiahikes (2017-Present): Participated in Green Trails activity in Jiskun, Himachal Pradesh
+      • Awarded Green Trekker certificate for maximum contribution towards waste collection and segregation on Rupin Pass trail
+      • Event Head at ManZar ICT (2015-2016): Brought music partners and secured INR 100,000 in prize money sponsorship
+
+      **Languages:** English (Fluent), Hindi (Native), Marathi (Native)
+
+      **Interests:** Process optimization, automation, sustainable technology, hiking, environmental conservation
+
+# Additional links (optional)
+additional_links:
+  - title: Download CV
+    icon: fas fa-download
+    url: images/subodh-cv.pdf
+
+# Footer
+footer: |
+  © 2024 Subodh Sonar. All rights reserved.
+
+# Build settings
+# theme: modern-resume-theme (Use this if you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
