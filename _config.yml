@@ -344,6 +344,15 @@ more_content: |
 
 # Additional links (optional)
 additional_links:
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/subodhsonar/
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/subodh122
+  - title: Instagram
+    icon: fab fa-instagram
+    url: https://www.instagram.com/subodh122/
   - title: Download CV
     icon: fas fa-download
     url: images/subodh-cv.pdf
