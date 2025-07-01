@@ -40,11 +40,17 @@ image: images/subodh-photo.jpg
 # About section
 about_profile_image: images/subodh-photo.jpg
 about_content: |
-  Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, 
-  process optimization, and Hamilton liquid handling automation. Proven track record in driving operational efficiency and cost savings 
-  through data-driven solutions and process improvements. Skilled in PCR, cytometry, library prep and 10x Single Cell Chromium techniques 
-  and troubleshooting complex lab protocols. Experienced in developing SOPs, drafting batch records, and managing engineering changes. 
-  Strong collaborator with cross-functional teams with excellent communication, organization, and mentoring skills.
+  **Driving scalable lab innovation through automation, lean manufacturing, and frugal experimentation.**
+
+  I'm a scientist and engineer drawn to the art of building elegant, scalable systems out of complex scientific workflows. With a foundation in materials research, lab automation, and process development, I help teams streamline operations and bring structure to the messiness of discovery.
+
+  My work blends hands-on lab expertise with automation tools like Hamilton Venus, Python, machine learning, and Six Sigma methodologies—turning redundancy into efficiency, and data into direction. I've developed patented water-soluble fluorescent dyes and conducted research across nanoparticle synthesis, MOF catalysis, and solar-active films, all while staying grounded in analytical techniques like UV/Vis, GPC, SEM, XRD, and GC-MS.
+
+  I believe that the best systems—whether inherited or new—are those designed with transferability, traceability, and continuous improvement in mind. That means starting with well-defined operational and analytical goals, and designing with both humans and scale in mind.
+
+  I'm most at home in environments where curiosity is valued, cross-functional collaboration is the norm, and failure is treated as a fertile ground for learning. I thrive on helping teams do more with less—stretching resources through frugal experimentation and creative problem-solving before reaching for expensive solutions.
+
+  **If the lab is a machine, I'm here to make it run smoother, smarter, and more sustainably.**
 
 # Dark mode settings
 darkmode: true
