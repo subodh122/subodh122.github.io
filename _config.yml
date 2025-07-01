@@ -4,6 +4,9 @@
 # Theme settings
 remote_theme: sproogen/modern-resume-theme
 title: Subodh Sonar - Scientist | Process & Automation Engineer | Materials Researcher
+
+# Content configuration version
+version: 2
 description: Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, process optimization, and Hamilton liquid handling automation.
 
 # Personal information
@@ -46,165 +49,232 @@ about_content: |
 # Dark mode settings
 darkmode: true
 
-# Experience Section
-experience_title: Professional Experience
-experience:
-  - company: 10x Genomics
-    job_title: Senior Research Associate I/II
-    dates: July 2021 - Present
-    description: |
-      Process engineer and automation specialist driving operational efficiency and cost savings through data-driven solutions. 
-      Led multiple high-impact projects including custom dispensing robot optimization ($200K annual savings), 
-      oligo-ligation process improvement ($1.4M scrap cost reduction), and gel bead reagent shelf life extension ($4M inventory savings). 
-      Expert in Hamilton liquid handling automation, process validation, and cross-functional collaboration.
+# Content sections
+content:
+  - title: Professional Experience
+    layout: list
+    content:
+      - layout: left
+        title: 10x Genomics
+        sub_title: Senior Research Associate I/II
+        caption: July 2021 - Present
+        description: |
+          Process engineer and automation specialist driving operational efficiency and cost savings through data-driven solutions. 
+          Led multiple high-impact projects including custom dispensing robot optimization ($200K annual savings), 
+          oligo-ligation process improvement ($1.4M scrap cost reduction), and gel bead reagent shelf life extension ($4M inventory savings). 
+          Expert in Hamilton liquid handling automation, process validation, and cross-functional collaboration.
 
-  - company: Becton Dickinson Biosciences
-    job_title: Scientist I/II
-    dates: August 2019 - June 2021
-    description: |
-      R&D scientist focused on fluorescent dye synthesis and process optimization. Led experimentation resulting in patented IP 
-      (USP 20220340813A1) for water-soluble fluorescent polymeric dyes. Conducted multiple DoEs for polymerization optimization, 
-      performed MSA studies, and implemented cost-saving process improvements. Developed ML applications for reaction prediction.
+      - layout: left
+        title: Becton Dickinson Biosciences
+        sub_title: Scientist I/II
+        caption: August 2019 - June 2021
+        description: |
+          R&D scientist focused on fluorescent dye synthesis and process optimization. Led experimentation resulting in patented IP 
+          (USP 20220340813A1) for water-soluble fluorescent polymeric dyes. Conducted multiple DoEs for polymerization optimization, 
+          performed MSA studies, and implemented cost-saving process improvements. Developed ML applications for reaction prediction.
 
-  - company: BD Biosciences
-    job_title: Research Internship
-    dates: June 2018 - September 2018
-    description: |
-      Research intern focused on polymer analysis and synthesis optimization. Performed GPC-based polymer analysis, 
-      developed calibration curves, and enhanced fluorophore conjugation chemistry and yield.
+      - layout: left
+        title: BD Biosciences
+        sub_title: Research Internship
+        caption: June 2018 - September 2018
+        description: |
+          Research intern focused on polymer analysis and synthesis optimization. Performed GPC-based polymer analysis, 
+          developed calibration curves, and enhanced fluorophore conjugation chemistry and yield
 
-# Education Section
-education_title: Education
-education:
-  - school: University of California, San Diego
-    degree: M.S. in Materials Science and Engineering
-    dates: June 2019
-    description: |
-      Conducted interdisciplinary research in advanced materials as part of a MURI-funded project. 
-      Focused on polydopamine nanoparticle synthesis, mixed-matrix membranes, and bio-inspired chemical systems, 
-      achieving high absorptive thin films for solar energy applications.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of California, San Diego
+        sub_title: M.S. in Materials Science and Engineering
+        caption: June 2019
+        description: |
+          Conducted interdisciplinary research in advanced materials as part of a MURI-funded project. 
+          Focused on polydopamine nanoparticle synthesis, mixed-matrix membranes, and bio-inspired chemical systems, 
+          achieving high absorptive thin films for solar energy applications.
 
-  - school: Institute of Chemical Technology (UDCT), Mumbai
-    degree: B.S. in Chemical Engineering
-    dates: June 2017
-    description: |
-      Comprehensive education in chemical engineering principles with focus on process design, 
-      optimization, and materials science applications.
+      - layout: left
+        title: Institute of Chemical Technology (UDCT), Mumbai
+        sub_title: B.S. in Chemical Engineering
+        caption: June 2017
+        description: |
+          Comprehensive education in chemical engineering principles with focus on process design, 
+          optimization, and materials science applications
 
-# Projects Section
-projects_title: Key Projects & Achievements
-projects:
-  - title: Custom Dispensing Robot Optimization
-    description: 10x Genomics | Process Automation
-    dates: 2023-2024
-    icon: fas fa-robot
-    content: |
-      Developed cleaning and drying-in-place protocol for custom dispensing robot, saving 180 labor hours and $200K annually. 
-      Implemented automated maintenance procedures and optimized operational workflows.
+  - title: Key Projects & Achievements
+    layout: list
+    content:
+      - layout: top-middle
+        title: Custom Dispensing Robot Optimization
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Process Automation
+            icon: fas fa-robot
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Process Automation | 2023-2024
+        description: |
+          Developed cleaning and drying-in-place protocol for custom dispensing robot, saving 180 labor hours and $200K annually. 
+          Implemented automated maintenance procedures and optimized operational workflows.
 
-  - title: Oligo-Ligation Process Optimization
-    description: 10x Genomics | Process Improvement
-    dates: 2022-2023
-    icon: fas fa-dna
-    content: |
-      Reduced scrap costs by $1.4M by mitigating process variation in multi-day oligo-ligation processes for Chromium Single Cell consumables. 
-      Implemented statistical process control and quality monitoring systems.
+      - layout: top-middle
+        title: Oligo-Ligation Process Optimization
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Process Improvement
+            icon: fas fa-dna
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Process Improvement | 2022-2023
+        description: |
+          Reduced scrap costs by $1.4M by mitigating process variation in multi-day oligo-ligation processes for Chromium Single Cell consumables. 
+          Implemented statistical process control and quality monitoring systems.
 
-  - title: Gel Bead Reagent Shelf Life Extension
-    description: 10x Genomics | Product Development
-    dates: 2022-2023
-    icon: fas fa-flask
-    content: |
-      Extended shelf life of Chromium Single Cell gel bead reagents from 2 to 4 years, saving ~$4M in inventory costs. 
-      Conducted stability studies and formulation optimization.
+      - layout: top-middle
+        title: Gel Bead Reagent Shelf Life Extension
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Product Development
+            icon: fas fa-flask
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Product Development | 2022-2023
+        description: |
+          Extended shelf life of Chromium Single Cell gel bead reagents from 2 to 4 years, saving ~$4M in inventory costs. 
+          Conducted stability studies and formulation optimization.
 
-  - title: Cold-Chain Shipping Optimization
-    description: 10x Genomics | Supply Chain
-    dates: 2022
-    icon: fas fa-snowflake
-    content: |
-      Led cold-chain shipping studies and developed optimized packing ratio to maintain < -40°C for 5-day transit. 
-      Ensured product integrity during international distribution.
+      - layout: top-middle
+        title: Cold-Chain Shipping Optimization
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Supply Chain
+            icon: fas fa-snowflake
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Supply Chain | 2022
+        description: |
+          Led cold-chain shipping studies and developed optimized packing ratio to maintain < -40°C for 5-day transit. 
+          Ensured product integrity during international distribution.
 
-  - title: Oligo Yield Data Dashboard
-    description: 10x Genomics | Data Analytics
-    dates: 2022
-    icon: fas fa-chart-line
-    content: |
-      Created Google Sheets dashboard with Python/Streamlit backend to visualize oligo yield data. 
-      Enabled real-time monitoring and trend analysis for process optimization.
+      - layout: top-middle
+        title: Oligo Yield Data Dashboard
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Data Analytics
+            icon: fas fa-chart-line
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Data Analytics | 2022
+        description: |
+          Created Google Sheets dashboard with Python/Streamlit backend to visualize oligo yield data. 
+          Enabled real-time monitoring and trend analysis for process optimization.
 
-  - title: Xenium Workflow Optimization
-    description: 10x Genomics | Process Improvement
-    dates: 2023
-    icon: fas fa-cogs
-    content: |
-      Optimized Xenium dispensing, sealing, and shipping workflows, cutting customer complaints by 80% in two quarters. 
-      Implemented quality control measures and process standardization.
+      - layout: top-middle
+        title: Xenium Workflow Optimization
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Process Improvement
+            icon: fas fa-cogs
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Process Improvement | 2023
+        description: |
+          Optimized Xenium dispensing, sealing, and shipping workflows, cutting customer complaints by 80% in two quarters. 
+          Implemented quality control measures and process standardization.
 
-  - title: Fluorescent Dye Synthesis Patent
-    description: BD Biosciences | R&D Innovation
-    dates: 2020-2021
-    icon: fas fa-lightbulb
-    content: |
-      Led experimentation for raw material blending strategy for fluorescent dye synthesis, resulting in patented IP (USP 20220340813A1). 
-      Developed novel polymer synthesis methodology with enhanced optical properties.
+      - layout: top-middle
+        title: Fluorescent Dye Synthesis Patent
+        link: https://bd.com
+        additional_links:
+          - title: R&D Innovation
+            icon: fas fa-lightbulb
+            url: https://bd.com
+        quote: BD Biosciences | R&D Innovation | 2020-2021
+        description: |
+          Led experimentation for raw material blending strategy for fluorescent dye synthesis, resulting in patented IP (USP 20220340813A1). 
+          Developed novel polymer synthesis methodology with enhanced optical properties.
 
-  - title: Polymerization Process Optimization
-    description: BD Biosciences | Process Development
-    dates: 2020-2021
-    icon: fas fa-atom
-    content: |
-      Conducted multiple DoEs to optimize chain-growth polymerization, controlling reaction pathways and kinetics using SPC and GPC. 
-      Achieved consistent product quality and improved yield.
+      - layout: top-middle
+        title: Polymerization Process Optimization
+        link: https://bd.com
+        additional_links:
+          - title: Process Development
+            icon: fas fa-atom
+            url: https://bd.com
+        quote: BD Biosciences | Process Development | 2020-2021
+        description: |
+          Conducted multiple DoEs to optimize chain-growth polymerization, controlling reaction pathways and kinetics using SPC and GPC. 
+          Achieved consistent product quality and improved yield.
 
-  - title: NanoDrop Spectrophotometer MSA
-    description: BD Biosciences | Quality Assurance
-    dates: 2020
-    icon: fas fa-microscope
-    content: |
-      Performed MSA and Gage R&R on NanoDrop Spectrophotometer, revealing 30% variance in absorbance causing process instability. 
-      Implemented calibration procedures and operator training.
+      - layout: top-middle
+        title: NanoDrop Spectrophotometer MSA
+        link: https://bd.com
+        additional_links:
+          - title: Quality Assurance
+            icon: fas fa-microscope
+            url: https://bd.com
+        quote: BD Biosciences | Quality Assurance | 2020
+        description: |
+          Performed MSA and Gage R&R on NanoDrop Spectrophotometer, revealing 30% variance in absorbance causing process instability. 
+          Implemented calibration procedures and operator training.
 
-  - title: Lyophilization Process Elimination
-    description: BD Biosciences | Cost Optimization
-    dates: 2020
-    icon: fas fa-dollar-sign
-    content: |
-      Eliminated lyophilization step in dye production, saving $12,000 per lot in labor and product loss. 
-      Developed alternative drying methods while maintaining product quality.
+      - layout: top-middle
+        title: Lyophilization Process Elimination
+        link: https://bd.com
+        additional_links:
+          - title: Cost Optimization
+            icon: fas fa-dollar-sign
+            url: https://bd.com
+        quote: BD Biosciences | Cost Optimization | 2020
+        description: |
+          Eliminated lyophilization step in dye production, saving $12,000 per lot in labor and product loss. 
+          Developed alternative drying methods while maintaining product quality.
 
-  - title: Supply Chain Risk Mitigation
-    description: BD Biosciences | Supply Chain
-    dates: 2020-2021
-    icon: fas fa-network-wired
-    content: |
-      Identified and qualified alternative polymer purification consumable suppliers to mitigate supply chain risks. 
-      Established backup supply networks and quality assurance protocols.
+      - layout: top-middle
+        title: Supply Chain Risk Mitigation
+        link: https://bd.com
+        additional_links:
+          - title: Supply Chain
+            icon: fas fa-network-wired
+            url: https://bd.com
+        quote: BD Biosciences | Supply Chain | 2020-2021
+        description: |
+          Identified and qualified alternative polymer purification consumable suppliers to mitigate supply chain risks. 
+          Established backup supply networks and quality assurance protocols.
 
-  - title: United States Patent 20220340813A1
-    description: BD | Patent Achievement
-    dates: Oct 2022
-    icon: fas fa-certificate
-    content: Patented technology for fluorescent polymeric dyes with enhanced optical properties
+      - layout: top-middle
+        title: United States Patent 20220340813A1
+        link: https://bd.com
+        additional_links:
+          - title: Patent Achievement
+            icon: fas fa-certificate
+            url: https://bd.com
+        quote: BD | Patent Achievement | Oct 2022
+        description: Patented technology for fluorescent polymeric dyes with enhanced optical properties
 
-  - title: Venus Software Training I
-    description: 10x Genomics | Certification
-    dates: April 2024
-    icon: fas fa-certificate
-    content: Certified in Hamilton liquid handling automation systems
+      - layout: top-middle
+        title: Venus Software Training I
+        link: https://10xgenomics.com
+        additional_links:
+          - title: Certification
+            icon: fas fa-certificate
+            url: https://10xgenomics.com
+        quote: 10x Genomics | Certification | April 2024
+        description: Certified in Hamilton liquid handling automation systems
 
-  - title: Six Sigma Manufacturing Fundamentals
-    description: BD | Certification
-    dates: November 2019
-    icon: fas fa-certificate
-    content: Lean Six Sigma White Belt certification in manufacturing processes
+      - layout: top-middle
+        title: Six Sigma Manufacturing Fundamentals
+        link: https://bd.com
+        additional_links:
+          - title: Certification
+            icon: fas fa-certificate
+            url: https://bd.com
+        quote: BD | Certification | November 2019
+        description: Lean Six Sigma White Belt certification in manufacturing processes
 
-  - title: MOFs Synchrotron Beam Line Proposal
-    description: UCSD | Research Achievement
-    dates: Spring 2018
-    icon: fas fa-trophy
-    content: "Winning proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
+      - layout: top-middle
+        title: MOFs Synchrotron Beam Line Proposal
+        link: https://ucsd.edu
+        additional_links:
+          - title: Research Achievement
+            icon: fas fa-trophy
+            url: https://ucsd.edu
+        quote: UCSD | Research Achievement | Spring 2018
+        description: "Winning proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
 
 # More Section
 more_title: Technical Skills & Experience
