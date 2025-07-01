@@ -226,112 +226,49 @@ content:
         description: "Winning proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
 
   - title: Technical Skills
-    layout: text
-    content: |
-      <style>
-        .skills-table {
-          width: 100%;
-          border-collapse: collapse;
-          margin: 20px 0;
-          background: var(--card-background);
-          border-radius: 8px;
-          overflow: hidden;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-          font-family: inherit;
-        }
-        .skills-table th {
-          background: var(--primary-color);
-          color: white;
-          padding: 20px 15px;
-          text-align: center;
-          font-weight: 600;
-          font-size: 1.2em;
-          font-family: inherit;
-        }
-        .skills-table th i {
-          margin-right: 12px;
-          font-size: 1.3em;
-        }
-        .skills-table td {
-          padding: 18px 15px;
-          text-align: center;
-          border-bottom: 1px solid var(--border-color);
-          font-size: 1.1em;
-          line-height: 1.6;
-          font-family: inherit;
-          color: var(--text-color);
-        }
-        .skills-table tr:last-child td {
-          border-bottom: none;
-        }
-        .skills-table tr:hover {
-          background: var(--hover-color);
-        }
-        @media (max-width: 768px) {
-          .skills-table th {
-            font-size: 1.1em;
-            padding: 16px 10px;
-          }
-          .skills-table td {
-            font-size: 1em;
-            padding: 14px 10px;
-          }
-        }
-      </style>
+    layout: list
+    content:
+      - layout: left
+        title: Analytical Tools
+        sub_title: Laboratory Equipment & Techniques
+        caption: Advanced Instrumentation
+        description: |
+          HPLC, GC-MS, GPC, HPTLC, XRD (Bruker), SEM-EDS, FTIR, BET, XPS, AFM, 1H-NMR, UV/Vis
 
-      <table class="skills-table">
-        <thead>
-          <tr>
-            <th><i class="fas fa-microscope"></i> Analytical Tools</th>
-            <th><i class="fas fa-robot"></i> Automation & Scripting</th>
-            <th><i class="fas fa-chart-line"></i> Software & Data Analysis</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HPLC, GC-MS, GPC, HPTLC</td>
-            <td>Hamilton Venus 6, OpenCV</td>
-            <td>JMP, Minitab, Tableau</td>
-          </tr>
-          <tr>
-            <td>XRD (Bruker), SEM-EDS, FTIR</td>
-            <td>C, C++, Docker, Gradio</td>
-            <td>Python (Pandas, Scikit-learn, Streamlit)</td>
-          </tr>
-          <tr>
-            <td>BET, XPS, AFM, 1H-NMR, UV/Vis</td>
-            <td>Labview, Opentrons, R-studio</td>
-            <td>CAD, Solidworks</td>
-          </tr>
-        </tbody>
-      </table>
+      - layout: left
+        title: Automation & Scripting
+        sub_title: Programming & Control Systems
+        caption: Process Automation
+        description: |
+          Hamilton Venus 6, OpenCV, C, C++, Docker, Gradio, Labview, Opentrons, R-studio
 
-      <table class="skills-table">
-        <thead>
-          <tr>
-            <th><i class="fas fa-cogs"></i> Process Development</th>
-            <th><i class="fas fa-certificate"></i> Regulatory & Quality</th>
-            <th><i class="fas fa-dna"></i> Molecular Biology</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>DOEs, SPC, Scale-up</td>
-            <td>GxP, Equipment validation</td>
-            <td>PCR, Cytometry, Library Prep</td>
-          </tr>
-          <tr>
-            <td>Gage R&R, Cleaning validations</td>
-            <td>SOP development, QMS</td>
-            <td>10x Single Cell Chromium</td>
-          </tr>
-          <tr>
-            <td>NPI tech-transfer, FMEA, RCAs</td>
-            <td>Engineering change management</td>
-            <td>Microfluidics, Gel Bead Technology</td>
-          </tr>
-        </tbody>
-      </table>
+      - layout: left
+        title: Software & Data Analysis
+        sub_title: Analytics & Visualization
+        caption: Data Science Tools
+        description: |
+          JMP, Minitab, Tableau, Python (Pandas, Scikit-learn, Streamlit), CAD, Solidworks
+
+      - layout: left
+        title: Process Development
+        sub_title: Manufacturing & Quality
+        caption: Industrial Processes
+        description: |
+          DOEs, SPC, Scale-up, Gage R&R, Cleaning validations, NPI tech-transfer, FMEA, RCAs
+
+      - layout: left
+        title: Regulatory & Quality
+        sub_title: Compliance & Standards
+        caption: Quality Management
+        description: |
+          GxP, Equipment validation, SOP development, QMS, Engineering change management
+
+      - layout: left
+        title: Molecular Biology
+        sub_title: Biotechnology & Genomics
+        caption: Life Sciences
+        description: |
+          PCR, Cytometry, Library Prep, 10x Single Cell Chromium, Microfluidics, Gel Bead Technology
 
 # More Section
 more_title: Professional Experience & Research
