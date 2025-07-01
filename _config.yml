@@ -107,179 +107,122 @@ content:
           Comprehensive education in chemical engineering principles with focus on process design, 
           optimization, and materials science applications
 
-  - title: Key Projects & Achievements
+  - title: Key Projects
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Custom Dispensing Robot Optimization
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Process Automation
-            icon: fas fa-robot
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Process Automation | 2023-2024
+        sub_title: 10x Genomics | Process Automation
+        caption: 2023-2024
         description: |
           Developed cleaning and drying-in-place protocol for custom dispensing robot, saving 180 labor hours and $200K annually. 
           Implemented automated maintenance procedures and optimized operational workflows.
 
-      - layout: top-middle
+      - layout: left
         title: Oligo-Ligation Process Optimization
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Process Improvement
-            icon: fas fa-dna
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Process Improvement | 2022-2023
+        sub_title: 10x Genomics | Process Improvement
+        caption: 2022-2023
         description: |
           Reduced scrap costs by $1.4M by mitigating process variation in multi-day oligo-ligation processes for Chromium Single Cell consumables. 
           Implemented statistical process control and quality monitoring systems.
 
-      - layout: top-middle
+      - layout: left
         title: Gel Bead Reagent Shelf Life Extension
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Product Development
-            icon: fas fa-flask
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Product Development | 2022-2023
+        sub_title: 10x Genomics | Product Development
+        caption: 2022-2023
         description: |
           Extended shelf life of Chromium Single Cell gel bead reagents from 2 to 4 years, saving ~$4M in inventory costs. 
           Conducted stability studies and formulation optimization.
 
-      - layout: top-middle
+      - layout: left
         title: Cold-Chain Shipping Optimization
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Supply Chain
-            icon: fas fa-snowflake
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Supply Chain | 2022
+        sub_title: 10x Genomics | Supply Chain
+        caption: 2022
         description: |
           Led cold-chain shipping studies and developed optimized packing ratio to maintain < -40°C for 5-day transit. 
           Ensured product integrity during international distribution.
 
-      - layout: top-middle
+      - layout: left
         title: Oligo Yield Data Dashboard
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Data Analytics
-            icon: fas fa-chart-line
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Data Analytics | 2022
+        sub_title: 10x Genomics | Data Analytics
+        caption: 2022
         description: |
           Created Google Sheets dashboard with Python/Streamlit backend to visualize oligo yield data. 
           Enabled real-time monitoring and trend analysis for process optimization.
 
-      - layout: top-middle
+      - layout: left
         title: Xenium Workflow Optimization
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Process Improvement
-            icon: fas fa-cogs
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Process Improvement | 2023
+        sub_title: 10x Genomics | Process Improvement
+        caption: 2023
         description: |
           Optimized Xenium dispensing, sealing, and shipping workflows, cutting customer complaints by 80% in two quarters. 
           Implemented quality control measures and process standardization.
 
-      - layout: top-middle
+      - layout: left
         title: Fluorescent Dye Synthesis Patent
-        link: https://bd.com
-        additional_links:
-          - title: R&D Innovation
-            icon: fas fa-lightbulb
-            url: https://bd.com
-        quote: BD Biosciences | R&D Innovation | 2020-2021
+        sub_title: BD Biosciences | R&D Innovation
+        caption: 2020-2021
         description: |
           Led experimentation for raw material blending strategy for fluorescent dye synthesis, resulting in patented IP (USP 20220340813A1). 
           Developed novel polymer synthesis methodology with enhanced optical properties.
 
-      - layout: top-middle
+      - layout: left
         title: Polymerization Process Optimization
-        link: https://bd.com
-        additional_links:
-          - title: Process Development
-            icon: fas fa-atom
-            url: https://bd.com
-        quote: BD Biosciences | Process Development | 2020-2021
+        sub_title: BD Biosciences | Process Development
+        caption: 2020-2021
         description: |
           Conducted multiple DoEs to optimize chain-growth polymerization, controlling reaction pathways and kinetics using SPC and GPC. 
           Achieved consistent product quality and improved yield.
 
-      - layout: top-middle
+      - layout: left
         title: NanoDrop Spectrophotometer MSA
-        link: https://bd.com
-        additional_links:
-          - title: Quality Assurance
-            icon: fas fa-microscope
-            url: https://bd.com
-        quote: BD Biosciences | Quality Assurance | 2020
+        sub_title: BD Biosciences | Quality Assurance
+        caption: 2020
         description: |
           Performed MSA and Gage R&R on NanoDrop Spectrophotometer, revealing 30% variance in absorbance causing process instability. 
           Implemented calibration procedures and operator training.
 
-      - layout: top-middle
+      - layout: left
         title: Lyophilization Process Elimination
-        link: https://bd.com
-        additional_links:
-          - title: Cost Optimization
-            icon: fas fa-dollar-sign
-            url: https://bd.com
-        quote: BD Biosciences | Cost Optimization | 2020
+        sub_title: BD Biosciences | Cost Optimization
+        caption: 2020
         description: |
           Eliminated lyophilization step in dye production, saving $12,000 per lot in labor and product loss. 
           Developed alternative drying methods while maintaining product quality.
 
-      - layout: top-middle
+      - layout: left
         title: Supply Chain Risk Mitigation
-        link: https://bd.com
-        additional_links:
-          - title: Supply Chain
-            icon: fas fa-network-wired
-            url: https://bd.com
-        quote: BD Biosciences | Supply Chain | 2020-2021
+        sub_title: BD Biosciences | Supply Chain
+        caption: 2020-2021
         description: |
           Identified and qualified alternative polymer purification consumable suppliers to mitigate supply chain risks. 
-          Established backup supply networks and quality assurance protocols.
+          Established backup supply networks and quality assurance protocols
 
-      - layout: top-middle
+  - title: Achievements
+    layout: list
+    content:
+      - layout: left
         title: United States Patent 20220340813A1
-        link: https://bd.com
-        additional_links:
-          - title: Patent Achievement
-            icon: fas fa-certificate
-            url: https://bd.com
-        quote: BD | Patent Achievement | Oct 2022
+        sub_title: BD | Patent Achievement
+        caption: Oct 2022
         description: Patented technology for fluorescent polymeric dyes with enhanced optical properties
 
-      - layout: top-middle
+      - layout: left
         title: Venus Software Training I
-        link: https://10xgenomics.com
-        additional_links:
-          - title: Certification
-            icon: fas fa-certificate
-            url: https://10xgenomics.com
-        quote: 10x Genomics | Certification | April 2024
+        sub_title: 10x Genomics | Certification
+        caption: April 2024
         description: Certified in Hamilton liquid handling automation systems
 
-      - layout: top-middle
+      - layout: left
         title: Six Sigma Manufacturing Fundamentals
-        link: https://bd.com
-        additional_links:
-          - title: Certification
-            icon: fas fa-certificate
-            url: https://bd.com
-        quote: BD | Certification | November 2019
+        sub_title: BD | Certification
+        caption: November 2019
         description: Lean Six Sigma White Belt certification in manufacturing processes
 
-      - layout: top-middle
+      - layout: left
         title: MOFs Synchrotron Beam Line Proposal
-        link: https://ucsd.edu
-        additional_links:
-          - title: Research Achievement
-            icon: fas fa-trophy
-            url: https://ucsd.edu
-        quote: UCSD | Research Achievement | Spring 2018
+        sub_title: UCSD | Research Achievement
+        caption: Spring 2018
         description: "Winning proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL"
 
 # More Section
