@@ -327,6 +327,83 @@ section {
     font-weight: bold;
 }
 
+/* Education Section */
+.education {
+    background: white;
+}
+
+.education-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.education-item {
+    background: #f8fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #2563eb;
+}
+
+.education-item h3 {
+    color: #1f2937;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-item .degree {
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.education-item .date {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.achievements h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #1f2937;
+}
+
+.achievement-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #fbbf24;
+}
+
+.achievement-item i {
+    color: #fbbf24;
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.achievement-item h4 {
+    color: #1f2937;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.achievement-item p {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 /* Skills Section */
 .skills {
     background: #f8fafc;
@@ -533,6 +610,14 @@ section {
     }
 
     .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .education-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .achievement-items {
         grid-template-columns: 1fr;
     }
 }

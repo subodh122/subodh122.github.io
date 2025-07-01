@@ -1,0 +1,54 @@
+Subodh Sonar
+Scientist | Process & Automation Engineer | Materials Researcher
+San Francisco, CA - open to relocation | 858-247-9521 | sds.powai@gmail.com | LinkedIn
+PRofile
+Experienced process engineer and materials scientist with 5+ years in biotech, with strong expertise in molecular biology workflows, process optimization, and Hamilton liquid handling automation. Proven track record in driving operational efficiency and cost savings through data-driven solutions and process improvements. Skilled in PCR , cytometry, library prep and 10x Single Cell Chromium techniques and troubleshooting complex lab protocols. Experienced in developing SOPs, drafting batch records, and managing engineering changes. Strong collaborator with cross-functional teams with excellent communication, organization, and mentoring skills. 
+WORK EXPERIENCE
+Senior Research Associate I/ II, 10x Genomics | Pleasanton, CA | July 2021 - Present
+Developed a cleaning and drying-in-place protocol for a custom dispensing robot, saving 180 labor hours and $200K annually. Replaced complex assays with a total organic carbon (TOC) based QC method, reducing testing costs by $3,000 per run.
+Reduced scrap costs by $1.4M by mitigating process variation in multi-day oligo-ligation processes for Chromium Single Cell consumables. Identified key failure modes linked to chemical interactions in polymer  and oligo chains on microfluidic chip performance.
+Extended shelf life of Chromium Single Cell gel bead reagents from 2 to 4 years by validating real-time data against original QC results, saving ~$4M in inventory costs.
+Alleviated gel bead tethering impacts on Chromium chips. Helped implement novel reagent composition, improving temperature stability and reducing temperature related failure rates from 4% to <1%.
+Led cold-chain shipping studies and developed an optimized packing ratio to maintain < -40°C for 5-day transit, eliminating temperature excursions within re-icing schedules to ensure gel bead product integrity.
+Developed a non-destructive, high-throughput computer vision QC to replace cytometry-based method, boosting throughput. Enabled a discovery that reduced required gel bead concentration for optimal chip performance.
+Created a Google Sheets dashboard with Python/Streamlit backend to visualize oligo yield data, enabling real-time manufacturing insights via dynamic heatmaps and plots.
+Supported scale-up and tech transfer for Chromium and Xenium consumables, authoring batch records, SOPs, and QCMs; used DoEs, SPC, FMEAs, and Gage R&Rs to validate processes.
+Optimized Xenium dispensing, sealing, and shipping workflows, cutting customer complaints by 80% in two quarters and improving dry-ice packing efficiency.
+Authored FAT/SAT protocols for new sites to ensure consistent process validation, timelines, and quality checks across manufacturing locations.
+Scientist I/II, Becton Dickinson Biosciences | La Jolla, CA | August 2019 - June 2021
+Led experimentation for a raw material blending strategy for fluorescent dye synthesis, resulting in patented IP (USP 20220340813A1). Developed tunable dyes with enhanced optical properties for BD FACS reagents.
+Conducted multiple DoEs to optimize chain-growth polymerization, controlling reaction pathways and kinetics using SPC and GPC. Achieved repeatability and reproducibility across scales, reducing aggregation and background issues in BrilliantViolet dye reagent lots.
+Performed an MSA and Gage R&R on NanoDrop Spectrophotometer, revealing a 30% variance in absorbance causing significant  process instability. Proposed adjustments for improved calibration and enhanced quality.
+Eliminated a lyophilization step in dye production, saving $12,000 per lot in labor and product loss. Used Python for data scraping and Minitab to visualize process trends.
+Identified and qualified alternative polymer purification consumable suppliers to mitigate risk from product discontinuation, ensuring continuity of operations and supply chain resilience.
+AUTOMATION EXPERIENCE
+10x Genomics | Hamilton STAR, STARlet, Vantage
+Scripted methods for scaled-down oligo-ligation chemistry with modular functions for R&D. Implemented custom tip adapter and pickup pattern to achieve barcode diversity. Optimized liquid class for viscous gel-bead solutions in aqueous buffers, saving 8 hours per iteration and reducing ergonomic stress on operators.
+Assisted in automating manual dispensing processes, creating SOPs, conducting FMEA, and ensuring QC sampling, saving up to 48 hours of labor per quarter. Designed and executed a cross-contamination study for automated dispensing in next-gen Xenium plates, optimizing liquid classes for oligonucleotide solutions. Used tracer dye and fluorescence to ensure <0.1% cross-contamination during 10 consecutive dispenses.
+BD Biosciences | ML apps, Opentrons
+Developed an ML app for predicting functional group exchange reactions, achieving 4% mean squared error. Modeled using SVM, XgBoost and RF Regressors. Deployed using Gradio, saving 16 hours of R&D per screening run and reducing QC testing load.
+RESEARCH EXPERIENCE
+Research Internship, BD Biosciences | La Jolla, CA | June 2018 - September 2018
+Performed GPC-based polymer analysis to optimize fluorescent polymer synthesis, developing calibration curves for polymerization and functionalization, for enhanced fluorophore conjugation chemistry and yield.
+Graduate Researcher, University of California San Diego | January 2018 - June 2019
+Conducted interdisciplinary research in advanced materials as part of a MURI-funded project. Focused on polydopamine nanoparticle synthesis, mixed-matrix membranes, and bio-inspired chemical systems, achieving high absorptive thin films for solar energy applications.
+ECE136L: Fabricated diodes, LEDs, MOS capacitors, and FETs via photolithography and thin-film deposition for semiconductor applications, with analysis using voltametry and AFM. 
+ECE202: Conducted characterization of implantable sensing electrodes, designed EEG/EMG arrays using CAD - printed using laser micro machining, and performed neural data analysis.
+Undergraduate Researcher, Institute of Chemical Technology | October 2016 - September 2017
+Designed, synthesized and analyzed Cerium and Zirconium-based MOFs (UiO-66/808) and APTES-functionalized MCM-41 catalysts, achieving >90% conversions in 30+ catalytic reactions such as transamination, formylation and CO₂ cycloaddition. 
+Summer Researcher, Department of Chemical Engineering | IIT Bombay | 2015
+Assessed small molecule recovery from polymeric by-products (Asphaltenes) of refined crude oil, estimating molecular weight through osmolality measurements and HPTLC analysis. Classified macromolecule constituents and identified separable organic compounds using polarity-based solvent mixtures.
+EDUCATION
+University of California, San Diego 		                M.S. in Materials Science and Engineering, June 2019
+Institute of Chemical Technology (UDCT), Mumbai 		            B.S. in Chemical Engineering, June 2017
+Highlights
+United States Patent 20220340813A1 WATER-SOLUBLE FLUORESCENT POLYMERIC DYES 	 	      BD | Oct 2022
+Certified Venus Software I for Hamilton Liquid Automation Systems		             10x Genomics | April 2024
+Certified in Six Sigma Manufacturing Fundamentals Design				         BD | November 2019
+Winning author, “Proposal to study MOFs using the Synchrotron beam line (26-ID-C) at ANL”              UCSD | Spring 2018
+CORE COMPETENCIES
+Analytical Tools: HPLC, GC-MS, GPC, HPTLC, XRD (Bruker), SEM-EDS, FTIR, BET, XPS, AFM, 1H-NMR, UV/Vis
+Automation & Scripting: Hamilton Venus 6, OpenCV, C, C++, Docker, Gradio, Labview, Opentrons, R-studio
+Software & Data Analysis: JMP, Minitab, Tableau, Python (Pandas, Scikit-learn, Streamlit), CAD, Solidworks
+Process Development: DOEs, SPC, Scale-up, Gage R&R, Cleaning validations, NPI tech-transfer, FMEA, RCAs
+Regulatory & Quality: GxP, Equipment validation, SOP development, QMS, Engineering change management
