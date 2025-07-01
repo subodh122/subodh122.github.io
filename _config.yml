@@ -237,24 +237,29 @@ content:
           border-radius: 8px;
           overflow: hidden;
           box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          font-family: inherit;
         }
         .skills-table th {
           background: var(--primary-color);
           color: white;
-          padding: 15px;
+          padding: 18px 15px;
           text-align: center;
           font-weight: 600;
-          font-size: 0.9em;
+          font-size: 1em;
+          font-family: inherit;
         }
         .skills-table th i {
-          margin-right: 8px;
+          margin-right: 10px;
+          font-size: 1.1em;
         }
         .skills-table td {
-          padding: 12px 15px;
+          padding: 16px 15px;
           text-align: center;
           border-bottom: 1px solid var(--border-color);
-          font-size: 0.85em;
-          line-height: 1.4;
+          font-size: 0.95em;
+          line-height: 1.6;
+          font-family: inherit;
+          color: var(--text-color);
         }
         .skills-table tr:last-child td {
           border-bottom: none;
@@ -263,12 +268,13 @@ content:
           background: var(--hover-color);
         }
         @media (max-width: 768px) {
-          .skills-table {
-            font-size: 0.8em;
+          .skills-table th {
+            font-size: 0.9em;
+            padding: 14px 10px;
           }
-          .skills-table th,
           .skills-table td {
-            padding: 8px 10px;
+            font-size: 0.85em;
+            padding: 12px 10px;
           }
         }
       </style>
