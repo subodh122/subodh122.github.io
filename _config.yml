@@ -55,7 +55,8 @@ about_content: |
 # Dark mode settings
 darkmode: false
 
-# Navigation section
+# Content sections
+content:
   - title: Navigation
     layout: text
     content: |
@@ -67,8 +68,6 @@ darkmode: false
         <a href="#skills" style="text-decoration: none; padding: 10px 20px; background: var(--primary-color); color: white; border-radius: 25px; font-size: 1em; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Skills</a>
       </div>
 
-# Content sections
-content:
   - title: Professional Experience
     layout: list
     content:
