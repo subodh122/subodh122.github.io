@@ -61,7 +61,6 @@ jobs:
     needs: [ build-test, ci-skip ]
     # Skip this job for personal site
     if: false
-    if: github.ref == 'refs/heads/master' && github.repository_owner == 'sproogen' && needs.ci-skip.outputs.skip == 'false'
     steps:
     - uses: actions/checkout@v4
       with:
