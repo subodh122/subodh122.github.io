@@ -5,9 +5,16 @@
     {%- if site.about_profile_image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">
         <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+        <div style="margin-top: 12px; font-size: 1.5em; text-align: left;">
+          <a href="#professional-experience" style="color: black; text-decoration: none;">Experience</a><br>
+          <a href="#education" style="color: black; text-decoration: none;">Education</a><br>
+          <a href="#key-projects" style="color: black; text-decoration: none;">Projects</a><br>
+          <a href="#achievements" style="color: black; text-decoration: none;">Achievements</a><br>
+          <a href="#technical-skills" style="color: black; text-decoration: none;">Skills</a>
+        </div>
       </div>
     {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       {{ site.about_content | strip | markdownify }}
     </div>
   </div>
