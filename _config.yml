@@ -74,7 +74,7 @@ about_content: |
   **If the lab is a machine, I'm here to make it run smoother, smarter, and more sustainably.**
 
 # Dark mode settings
-darkmode: false
+darkmode: never
 
 # Content sections
 content:
