@@ -87,8 +87,6 @@ darkmode: never
 
 # Content sections
 content:
-
-
   - title: Professional Experience
     layout: list
     content:
