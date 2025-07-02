@@ -78,17 +78,6 @@ darkmode: never
 
 # Content sections
 content:
-  - title: Navigation
-    layout: text
-    content: |
-      <div style="text-align: center; margin: 10px 0; font-size: 0.9em;">
-        <a href="#experience" style="color: black; text-decoration: none; font-weight: 500;">Experience</a> • 
-        <a href="#education" style="color: black; text-decoration: none; font-weight: 500;">Education</a> • 
-        <a href="#projects" style="color: black; text-decoration: none; font-weight: 500;">Projects</a> • 
-        <a href="#achievements" style="color: black; text-decoration: none; font-weight: 500;">Achievements</a> • 
-        <a href="#skills" style="color: black; text-decoration: none; font-weight: 500;">Skills</a>
-      </div>
-
   - title: Professional Experience
     layout: list
     content:
